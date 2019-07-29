@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="7dp"
+    android:layout_marginBottom="5dp"
+    android:layout_width="match_parent"
+    app:cardElevation="4dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Stay updated on Cricket"
+        android:textColor="#000"
+        android:id="@+id/title_view"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="-2dp"
+        android:maxLines="1"
+        android:layout_marginLeft="17dp"
+        android:textColor="#BF000000"
+        android:layout_below="@+id/title_view"
+        android:text="Small sized essential apps"
+        android:id="@+id/subitle"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MORE"
+            android:textColor="#0C5C0C"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/subitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/sub_recyclerviews"
+        />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

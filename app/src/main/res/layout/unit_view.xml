@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:src="@drawable/one_one"
+        android:scaleType="centerCrop"
+        android:id="@+id/image_one"
+        android:background="@drawable/img_back"
+        
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free stories, audible stores."
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:layout_below="@+id/image_one"
+        android:id="@+id/desc"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 MB"
+        android:textColor="#DC000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/desc"
+        android:textSize="11sp"
+
+        />
+    
+</RelativeLayout>
